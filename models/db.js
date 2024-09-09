@@ -1,5 +1,5 @@
 const { Sequelize } = require("sequelize");
-const sequelize = new Sequelize("escola", "root", "", {
+const sequelize = new Sequelize("clinica_med", "root", "", {
   host: "localhost",
   dialect: "mysql"});
 async function connectDatabase() {
